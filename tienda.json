@@ -1,0 +1,92 @@
+{
+    "baseDeDatos": [
+    {
+        "id": 1,
+        "nombre": "Guante aseo nitrilo verde",
+        "precio": 1500,
+        "neto": 1260.5,
+        "descripcion": "Los guantes con excelente barrera de protección biológica y química. Es de categoría premium cuyo uso se extiende al área clínica, farmacéutica, industrial y alimenticia.",
+        "imagen": "/Cachureando/Cachureando Unidad 4, Json/img/Productos/Producto001-Guantes.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Mascarilla 3 pligues celeste",
+        "precio": 2700,
+        "neto": 2268.9,
+        "descripcion": "Mascarilla confortable e higiénica protección respiratoria. Brinda protección contra polvos, partículas no tóxicas y olores molestos. Caja de 50 unidades.",
+        "imagen": "/Cachureando/Cachureando Unidad 4, Json/img/Productos/Producto002-Mascarilla.webp"
+    },
+    {
+        "id": 3,
+        "title": "Pastilla para inodoro",
+        "precio": 2890,
+        "iva": 461,
+        "neto": 2429,
+        "descripcion": "Pastilla para inodoro limpia profundamente y previene el sarro. Vienen 2 unidades por envase.",
+        "imagen": "/Cachureando/Cachureando Unidad 4, Json/img/Productos/Producto003-PastillaInodoro.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Basurero Cromado Plateado",
+        "precio": 3590,
+        "neto": 573,
+        "iva": 3017,
+        "descripcion": "Basurero cromado plateado, 1 unidad, con capacidad para 3 litros y pedal para abrir la tapa superior. Tiene una altura de 25cm y 17cm de ancho.",
+        "imagen": "/Cachureando/Cachureando Unidad 4, Json/img/Productos/Producto004-BasureroMetalico.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Escobilla Limpia Sanitario",
+        "precio": 7790,
+        "iva": 1244,
+        "neto": 6546,
+        "descripcion": "Escobilla Limpia Sanitario Con Base De Esquina, 1 unidad, posee puntas reforzadas y fibras más resistentes.",
+        "imagen": "/Cachureando/Cachureando Unidad 4, Json/img/Productos/Producto005-EscobillaBaño.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Sopapo Para Baños Inodoro",
+        "precio": 7550,
+        "iva": 1205,
+        "neto": 6345,
+        "descripcion": "Sopapo para baño clásico, marca Virutex, 1 unidad. Ideal para una mayor higiene, no retiene olores.",
+        "imagen": "/Cachureando/Cachureando Unidad 4, Json/img/Productos/Producto006-Sopapo.jpg"
+    },
+    {
+        "id": 7,
+        "title": "Toalla de Limpieza Multiuso",
+        "precio": 3670,
+        "iva": 586,
+        "neto": 3084,
+        "descripcion": "Toalla de Limpieza Multiuso Limón, 90 Un, marca Virutex. Es de multiuso, ideal para superficies lavables, superficies de cocina, baño, escritorios.",
+        "imagen": "/Cachureando/Cachureando Unidad 4, Json/img/Productos/Producto007-ToallaLimpieza.jpg"
+    },
+    {
+        "id": 8,
+        "title": "Paño Multiuso",
+        "precio": 3050,
+        "iva": 487,
+        "neto": 2563,
+        "descripcion": "Paño de multiuso para limpieza profunda, marca Virutex, envase de 3 unidades. Remueve fácilmente la suciedad adherida.",
+        "imagen": "/Cachureando/Cachureando Unidad 4, Json/img/Productos/Producto008-PañoLimpieza.jpg"
+    },
+    {
+        "id": 9,
+        "title": "Limpiador para pisos",
+        "precio": 2390,
+        "iva": 382,
+        "neto": 2008,
+        "descripcion": "Limpiador Líquido Desinfectante Pisos Concentrado Botella Original, 800 ml. Mata virus y bacterias en superficies duras. Elimine los olores desagradables del hogar.",
+        "imagen": "/Cachureando/Cachureando Unidad 4, Json/img/Productos/Producto009-DesinfectantePiso.jpg"
+    },
+    {
+        "id": 10,
+        "title": "Pack 2 Detergentes Líquido",
+        "precio": 29590,
+        "iva": 4724,
+        "neto": 24866,
+        "descripcion": "Potente detergente líquido de 3 litros. Pack de 2 unidades. Remueve manchas díficiles",
+        "imagen": "/Cachureando/Cachureando Unidad 4, Json/img/Productos/Producto010-Pack2detergente.jpg"
+    }
+  ]
+}

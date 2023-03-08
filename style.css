@@ -1,0 +1,238 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #efefef;
+}
+
+header {
+    background-color: #364552;
+    color: white;
+    padding: 3rem 2rem;
+}
+
+header h1 {
+    font-size: 4rem;
+    text-align: center; 
+}
+
+nav {
+    float: left;
+  }
+
+
+  nav ul {
+    list-style: none;
+    overflow: hidden;
+  }
+
+  nav ul li {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  }
+
+  nav ul li a {
+    display: block;
+    padding: 100px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+
+section article {
+    transition: box-shadow 0.3s ease;
+    background-color: #fff;
+    margin: 2rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+}
+
+section article:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+section article h2, section article p {
+    margin: 1rem;
+}
+
+.titulillo{
+    font-size: 7vw;
+}
+.container {
+    width: 400px;
+    margin: 50px auto;
+}
+
+.galeria h2{
+    text-align: center;
+    margin: 100px 0px 15px 0px;
+}
+
+.contenedor-imagenes{
+    display:flex;
+    width: 85%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 3px;
+}
+
+.contenedor-imagenes .imagen{
+    width: 32%;
+    position: relative;
+    height:250px;
+    margin-bottom:5px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75)
+}
+.imagen img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #222;
+    padding: 3rem;
+    color: #fff;
+}
+
+footer section {
+    float: right;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: cornflowerblue;
+}
+
+#menu {
+    float:left;
+    width:100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #374652;
+}
+
+#menu li {
+    float:left;
+    list-style:none;
+}
+
+#menu li a {
+    background-color: #374652;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    text-decoration: none;
+    width: 100%;
+    float:left;
+}
+
+#menu li a:hover {
+    background-color: #EEEEEE;
+    color: #374652;
+}
+
+.menu_select {
+    width:97%;
+    float:left;
+    display:none;
+    position:relative;
+}
+
+#selectme {
+    width:80%;
+    background-color:#374652;
+    color:#ffffff;
+    padding:10px;
+    font-weight: bold;
+    text-align:left;
+    cursor:pointer;
+    float:left;
+}
+
+ul#options {
+    width:100%;
+    float:left;
+    margin:0px;
+    padding:0px;
+    display:none;
+}
+
+ul#options li {
+    width:98%;
+    float:left;
+
+}
+
+ul#options li a {
+    color: #ffffff;
+    padding:10px;
+    font-weight: bold;
+    text-align:left;
+    text-decoration:none;
+    cursor:pointer;
+    margin-bottom:1px;
+    width:100%;
+    float:left;
+}
+
+ul#options li a:hover {
+    color:#374652;
+    background-color:#EEEEEE;
+    text-decoration: none;
+}
+
+ul#options li:hover {
+    
+}
+
+#arrow {
+    position: absolute;
+    left: 290px;
+    top: 12px;
+    cursor: pointer;
+}
+
+.down {
+    background-image:url("../Cachureando/img/7973548_3783573.jpg");
+    background-repeat:no-repeat;
+    height:25px;
+    width:25px;
+}
+
+.up {
+    background-image:url("../Cachureando/img/coronavirus-pandemic-disinfectant-in-protective-suit-and-mask-sprays-disinfectants-in-the-room.jpg");
+    background-repeat:no-repeat;
+    height:25px;
+    width:25px;
+}
+
+#comentario {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#palabraComentario {
+    text-align:left;
+    float: center;
+    margin: 0px;
+}
+
+
+@media only screen and (max-width: 980px) {
+nav ul { display: none; }
+nav select { display: inline-block; width:100%; background-color: #374652; color:#FFF; font-size: 16px; font-weight: bold; }
+nav .menu_select { display: inline-block; width:100%; background-color: #374652; color:#FFF; font-size: 16px; font-weight: bold; }
+}
